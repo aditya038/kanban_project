@@ -1,0 +1,13 @@
+.board {
+    display: flex;
+    justify-content: flex-start;
+    background-color:#ebecf0;
+    flex-grow:1;
+    overflow-x:auto;
+}
+
+@media (max-width: 640px) {
+    .board {
+        flex-direction: column;
+    }
+}
